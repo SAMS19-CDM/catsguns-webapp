@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatsGuns Mining</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Página de bienvenida -->
+  <div id="welcome">
+    <h1>Welcome to CatsGuns</h1>
+    <button id="startBtn">Start</button>
+  </div>
+
+  <!-- Página de minería -->
+  <div id="miningPage" style="display:none;">
+    <h2>Start Mining</h2>
+    <div id="timer">04:00:00</div>
+    <div id="balance">Balance: 0.000 CG</div>
+    <div id="minedAmount">Mining: 0.002 CG/s</div>
+    <button id="miningBtn">Start Mining</button>  <!-- Este es el botón que cambia -->
+    <div id="navigationButtons">
+      <button id="mineFreeBtn">Mine Free</button>
+      <button id="friendsBtn">Friends</button>
+      <button id="walletBtn">Wallet</button>
+    </div>
+    <button id="backBtnMining">Volver atrás</button> <!-- Botón para volver atrás -->
+  </div>
+
+  <!-- Página de amigos -->
+  <div id="friendsPage" style="display:none;">
+    <h2>My Friends</h2>
+    <p id="friendCount">Friends Invited: 0</p>
+    <p id="friendsBalance">Balance from Friends: 0 CG</p>
+    <button id="backBtnFriends">Volver atrás</button> <!-- Botón para volver atrás -->
+  </div>
+
+  <!-- Coming soon wallet -->
+  <div id="walletPage" style="display:none;">
+    <h2>Wallet</h2>
+    <p>Coming Soon</p>
+    <button id="backBtnWallet">Volver atrás</button> <!-- Botón para volver atrás -->
+  </div>
+
+  <script src="script11.js"></script>
+</body>
+</html>
